@@ -1,35 +1,37 @@
-# README Unificado das 4 Atividades
+# 📱 Desenvolvimento Mobile - UniCesumar
 
-````markdown
-# Atividades de Programação para Dispositivos Móveis
-
-**Estudante:** Ronaldo Dranski  
-**Turma:** ADSIS5S  
-
-Este repositório contém os 4 trabalhos práticos desenvolvidos para a disciplina de Programação para Dispositivos Móveis. Abaixo estão detalhadas as documentações de cada uma das entregas.
-
-
-````
 ---
 
-## Trabalho 1 - Configuração do Ambiente e Hello World em Dart
+## 👤 Alunos
+* **Nome:** Ronaldo Dranski
+* **Nome:** Nefertiti Kruger
+* **Nome:** Marcos Cardozo
+* **Nome:** Luis Gustavo Moraes Kadanus
+* **Curso:** Análise e Desenvolvimento de Sistemas
 
-### Objetivo da Atividade
-Verificar se o ambiente de desenvolvimento foi configurado corretamente e executar um programa simples utilizando a linguagem Dart, além de praticar o versionamento com Git/GitHub.
+## 📝 Descrição
+Este respositório contém as atividades desenvolvidas na disciplina de Programação Mobile.
 
-### Instruções para Execução
-1. Certifique-se de ter o SDK do Dart instalado.
-2. Acesse a pasta do trabalho 1 no terminal.
+---
+
+## 📂 Atividade 1
+
+### Atividade 1: Hello World em Dart
+* **Objetivo:** Validar a configuração do SDK e execução via terminal.
+
+### 🚀 Como Executar a Atividade 1
+1. Certifique-se de ter o **Dart SDK** instalado.
+2. Abra o terminal na raiz deste repositório.
 3. Execute o comando:
-   ```bash
-   dart main.dart
 
-### Exemplo da Saída do Programa
+```bash
+  dart run Atividade1/main.dart
+```
 
-A saída esperada no terminal ao executar o comando é:
+### 💻 Saída Esperada
 
-```text
-Hello World
+```
+  Hello World
 ```
 
 -----

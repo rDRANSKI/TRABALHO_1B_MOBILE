@@ -48,7 +48,7 @@ dart run Atividade2/main.dart
 
 -----
 
-## [Atividade 3](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2) - Aplicação de Calculadora em Flutter utilizando Componentização
+## 📂[Atividade 3](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2) - Aplicação de Calculadora em Flutter utilizando Componentização
 
 ### Descrição da Aplicação
 
@@ -74,7 +74,7 @@ A interface foi dividida em widgets menores e reutilizáveis para melhor manuten
 
 -----
 
-## [Atividade 4](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2) - Aplicação de Lista de Tarefas com Gestão de Estado
+## 📂[Atividade 4](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2) - Aplicação de Lista de Tarefas com Gestão de Estado
 
 ### Descrição da Aplicação
 

@@ -51,13 +51,21 @@ dart run Atividade2/main.dart
 ## 📂[Atividade 3](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade3) - Aplicação de Calculadora em Flutter utilizando Componentização
 
 ### 📝 Descrição do Sistema
-Aplicativo funcional de calculadora simples desenvolvido em Flutter, permitindo realizar operações de adição, subtração, multiplicação e divisão com interface gráfica.
+Calculadora simples desenvolvido em Flutter, com interface gráfica e suporte às quatro operações básicas.
+
+### Funcionalidades
+* Soma, subtração, multiplicação e divisão
+* Limpar cálculo (C)
+* Exibição da expressão e do resultado
+* Suporte a números decimais
 
 ### 🛠️ Estrutura de Componentes
-A interface foi dividida em widgets menores e reutilizáveis para melhor manutenção do código:
+O código está organizado em componentes reutilizáveis:
 
-  * **DisplayWidget:** Tela que exibe os números digitados e o resultado das operações.
-  * **BotaoWidget:** Botão padrão componentizado que recebe parâmetros de cor, texto e a função de clique para ser reutilizado tanto em números quanto em operadores.
+* Calculadora: widget principal responsável pela lógica e estado
+* DisplayCalc: exibe a expressão e o resultado
+* BotaoNumero: botões numéricos
+* BotaoOperacao: botões de operações
 
 ### 🚀 Instruções para Execução
 
@@ -71,7 +79,8 @@ A interface foi dividida em widgets menores e reutilizáveis para melhor manuten
 
 ### Prints da Interface
 
------
+<img width="330" height="215" alt="image" src="https://github.com/user-attachments/assets/49c99f71-a74a-4828-afda-5b7a2a2b67f8" />
+
 
 ## 📂[Atividade 4](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade4) - Lista de Tarefas (Flutter + Riverpod)
 

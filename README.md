@@ -74,15 +74,10 @@ A interface foi dividida em widgets menores e reutilizáveis para melhor manuten
 
 -----
 
-## 📂[Atividade 4](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2) - Lisda de Tarefas (Flutter + Riverpod)
+## 📂[Atividade 4](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2) - Lista de Tarefas (Flutter + Riverpod)
 
 ### 📝 Descrição do Sistema
 Este projeto é uma aplicação mobile de **Lista de Tarefas (To-Do List)** desenvolvida com o framework **Flutter**. O objetivo principal é demonstrar a gestão de estado reativa utilizando a biblioteca **Riverpod**, permitindo ao usuário gerenciar suas atividades diárias de forma simples e intuitiva.
-## 📂[Atividade 4](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade4) - Aplicação de Lista de Tarefas com Gestão de Estado
-
-### Descrição da Aplicação
-
-Um aplicativo de lista de tarefas (To-Do List) funcional em Flutter que permite criar, visualizar, marcar como concluídas e remover tarefas.
 
 ### 🛠️ Explicação das Classes e Componentes
 
@@ -112,6 +107,7 @@ Um `ConsumerWidget` que observa as mudanças no estado:
     flutter:
       sdk: flutter
     flutter_riverpode: ^2.5.1
+```
 
 3. Execute o comando para baixar os pacotes:
 

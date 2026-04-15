@@ -14,7 +14,7 @@ Este respositório contém as atividades desenvolvidas na disciplina de Programa
 
 ---
 
-## 📂 [Atividade 2](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2): CRUD de Biblioteca com Orientação a Objetos
+## 📂 [Atividade 2](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2) - CRUD de Biblioteca com Orientação a Objetos
 
 ### 📝 Descrição do Sistema
 Este sistema é uma aplicação de terminal desenvolvida em **Dart** para gerenciar uma biblioteca. Ele permite realizar as quatro operações básicas de um **CRUD**:

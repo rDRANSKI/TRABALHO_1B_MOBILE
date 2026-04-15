@@ -14,7 +14,7 @@ Este respositório contém as atividades desenvolvidas na disciplina de Programa
 
 ---
 
-## 📂 [Atividade 2](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2) - CRUD de Biblioteca com Orientação a Objetos
+## 📂 [Atividade 2](https://github.com/rDRANSKI/TRABALHO_1B_MOBILE/tree/main/Atividade2): CRUD de Biblioteca com Orientação a Objetos
 
 ### 📝 Descrição do Sistema
 Este sistema é uma aplicação de terminal desenvolvida em **Dart** para gerenciar uma biblioteca. Ele permite realizar as quatro operações básicas de um **CRUD**:
@@ -89,6 +89,17 @@ Este projeto é uma aplicação mobile de **Lista de Tarefas (To-Do List)** dese
 
 ### 🛠️ Explicação das Classes e Componentes
 
+#### 🧱 Estrutura do Projeto
+
+O projeto foi organizado para separar responsabilidades:
+
+- **models/** → classe Tarefa  
+- **providers/** → gerenciamento de estado com Riverpod  
+- **screens/** → telas da aplicação  
+- **widgets/** → componentes reutilizáveis
+
+Essa separação melhora a organização e manutenção do código.
+
 #### 1. Modelo de Dados (`Tarefa`)
 Uma classe simples que representa cada item da lista.
 * **nome:** String que armazena a descrição da tarefa.
@@ -100,11 +111,11 @@ Utiliza o `StateNotifier` para encapsular a lógica de negócio separada da inte
 * **alternar(int index)**: Inverte o status de conclusão de uma tarefa específica.
 * **remover(int index)**: Filtra a lista para excluir a tarefa selecionada.
 
-#### 3. Interface de Usuário (`TodoApp`)
-Um `ConsumerWidget` que observa as mudanças no estado:
-* **ProviderScope**: Necessário na raiz do app para armazenar o estado dos providers.
-* **ListView.builder**: Renderiza as tarefas de forma performática à medida que são criadas.
-* **TextDecoration.lineThrough**: Aplica um efeito visual de "riscado" em tarefas marcadas como concluídas.
+#### 3. Interface de Usuário (`TodoPage`)
+A interface foi separada em diferentes componentes para melhor organização:
+- **screens/**: tela principal da aplicação
+- **widgets/**: componentes reutilizáveis (como o item da lista)
+Utiliza ConsumerWidget/ConsumerStatefulWidget para observar mudanças no estado e atualizar a interface automaticamente.
 
 ### 🚀 Instruções para Execução
 1. Certifique-se de ter o ambiente **Flutter** configurado em sua máquina.
@@ -114,7 +125,7 @@ Um `ConsumerWidget` que observa as mudanças no estado:
   dependencies:
     flutter:
       sdk: flutter
-    flutter_riverpode: ^2.5.1
+    flutter_riverpod: ^2.5.1
 ```
 
 3. Execute o comando para baixar os pacotes:
@@ -133,3 +144,24 @@ Um `ConsumerWidget` que observa as mudanças no estado:
 * **Adicionar Tarefa:** Digite o nome no campo de texto e clique no botão "Adicionar".
 * **Concluir Tarefa:** Clique no Checkbox ao lado do nome da tarefa. O texto será riscado automaticamente.
 * **Excluir Tarefa:** Clique no ícone de lixeira (Icons.delete) à direita para remover o item da lista permanentemente.
+
+### 📷 Demonstração do App
+
+### 🏠 Tela inicial
+<img width="504" height="196" alt="print1" src="https://github.com/user-attachments/assets/55005809-75dc-4fd4-b135-c9a4c6d04851" />
+
+### ➕ Adicionando tarefa
+<img width="503" height="207" alt="print adcc tarefa" src="https://github.com/user-attachments/assets/08253694-e63a-4e34-a97e-fbbb32f88f47" />
+
+<img width="507" height="237" alt="print adc tarefa" src="https://github.com/user-attachments/assets/55d11137-c47b-45b0-acba-96917074bb20" />
+
+### ✔️ Tarefa concluída
+
+<img width="505" height="251" alt="print tarefa concluida" src="https://github.com/user-attachments/assets/33b37790-2c68-46a6-83ad-7e257e15ee6d" />
+
+
+### 🗑️ Removendo tarefa
+
+<img width="503" height="203" alt="print após remover tarefa" src="https://github.com/user-attachments/assets/88c885ba-72e2-4902-a73e-bb8a3ac08199" />
+
+
